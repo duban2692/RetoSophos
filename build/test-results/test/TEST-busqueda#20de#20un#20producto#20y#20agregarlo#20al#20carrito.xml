@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="busqueda de un producto y agregarlo al carrito" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-01-16T03:59:54" hostname="DESKTOP-U7MSEEK" time="32.755">
+  <properties/>
+  <testcase name="Buscar producto computador" classname="busqueda de un producto y agregarlo al carrito" time="32.755">
+    <failure message="org.openqa.selenium.InvalidElementStateException: invalid element state&#10;  (Session info: chrome=79.0.3945.117)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-U7MSEEK', ip: '192.168.1.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\QV-3983\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:59490}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 7a75165745dec77007901d366604cedd" type="org.openqa.selenium.InvalidElementStateException">org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=79.0.3945.117)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MSEEK', ip: '192.168.1.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\QV-3983\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:59490}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7a75165745dec77007901d366604cedd
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.clear(WebElementFacadeImpl.java:1113)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:719)
+	at net.serenitybdd.screenplay.actions.EnterValueIntoTarget.performAs(EnterValueIntoTarget.java:18)
+	at net.serenitybdd.screenplay.actions.EnterValueIntoTarget$$EnhancerByCGLIB$$4e987eb1.CGLIB$performAs$0(&lt;generated&gt;)
+	at net.serenitybdd.screenplay.actions.EnterValueIntoTarget$$EnhancerByCGLIB$$4e987eb1$$FastClassByCGLIB$$da8429ac.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:478)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:463)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:438)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:179)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:166)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:72)
+	at net.serenitybdd.screenplay.actions.EnterValueIntoTarget$$EnhancerByCGLIB$$4e987eb1.performAs(&lt;generated&gt;)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:223)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:204)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:161)
+	at pe.com.plazavea.automation.tasks.BuscarProduto.performAs(BuscarProduto.java:29)
+	at pe.com.plazavea.automation.tasks.BuscarProduto$$EnhancerByCGLIB$$192387b4.CGLIB$performAs$0(&lt;generated&gt;)
+	at pe.com.plazavea.automation.tasks.BuscarProduto$$EnhancerByCGLIB$$192387b4$$FastClassByCGLIB$$47182710.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:478)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:463)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:438)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:179)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:166)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:72)
+	at pe.com.plazavea.automation.tasks.BuscarProduto$$EnhancerByCGLIB$$192387b4.performAs(&lt;generated&gt;)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:223)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:204)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:161)
+	at pe.com.plazavea.automation.stepdefinitions.CompraProductoStepDefinition.dubanBuscaElProductoComputador(CompraProductoStepDefinition.java:46)
+	at ✽.duban busca el producto computador(src/test/resources/features/compra_producto.feature:5)
+</failure>
+  </testcase>
+  <system-out><![CDATA[
+
+
+
+
+
+
+
+]]></system-out>
+  <system-err><![CDATA[ene 15, 2020 10:59:55 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 47601
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1579147199.293][WARNING]: Timed out connecting to Chrome, retrying...
+ene 15, 2020 11:00:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+]]></system-err>
+</testsuite>
